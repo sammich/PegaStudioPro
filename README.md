@@ -8,7 +8,7 @@ For issues, questions, feedback, feature requests, suggestioned, create an issue
 
 It’s a large (maybe 100+) collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
 
-[Outline of the features/changes]((feature-outline.md)
+[Outline of the features/changes](feature-outline.md)
 
 
 ## Requirements
