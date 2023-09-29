@@ -4,13 +4,13 @@
 
 This is the current home of the PDPB component.
 
-For issues, questions, feedback, feature requests, suggestioned, create an issue. Vote on whatever you think should be added.
+For issues, questions, feedback, feature requests, suggestions, create an issue. Vote on whatever you think should be added.
 
 ## What is it?
 
 It’s a large (maybe 100+) collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
 
-[Outline of the features/changes](feature-outline.md)
+[Outline of the features/changes](feature-outline.md).
 
 ## Requirements
 
@@ -21,21 +21,22 @@ It’s a large (maybe 100+) collection of Developer Experience/Quality of Life m
 
 - Get a copy of the component (TBA)
 - Install it like any Pega Component
-- That's it
+
+That's it.
 
 ## Configuration
 
 - Uses configuration sets from within App Studio
 - If you use an issue tracker like Agile Studio or Jira, you'll need to configure it first
 
-## What did you make this component?
+## Why did you make this component?
 
 a
 
 ## What if something goes wrong?
 
 1. If it's a blocking issue, remove the component from your app
-2. Check the issues page if it's an existing issue, and vote for it, or create a new issue
+2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and tell me as much as you can.
 
 ## Potential FAQs
 
@@ -62,9 +63,9 @@ a
   find out which rules need to be rebuilt or evaluated for support. I will likely need community support to test support for
   Platform versions I don't have easy access to.
 
-- **I don't like X?**
+- **I don't like change X**
 
-  Some features can be turned off. And some.....
+  Some features can be turned off. If the option isn't there yet, create an issue and the discussion can happen in there.
 
 - **Do I need to have Pega Peer Review?**
 
@@ -72,4 +73,4 @@ a
 
 - **Can I get a simplified version for use in Prod?**
 
-  Considering it. If the consensus is that the component definitely is too hot for Prod.
+  Considering it. If the consensus is that the component is definitely is too hot for Prod.
