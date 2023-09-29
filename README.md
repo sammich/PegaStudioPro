@@ -12,6 +12,20 @@ It’s a large (maybe 100+) collection of Developer Experience/Quality of Life m
 
 [Outline of the features/changes](feature-outline.md).
 
+## Why did you make this component?
+
+I spend a lot of time in Dev Studio and I like the tools I used a lot to be efficient and be friendly to use. Since we want the output of the applications we build on the platform to be 'user friendly' why not our development tools (typically referred to as DX or Developer QoL)?
+
+Therefore, this component was built to:
+
+- reduce the number of clicks to achieve common actions, such as lifting actions out of menus
+- surface data that is otherwise hidden, such as the 'pass parameter page'
+- increase the density or make better use of the UI
+  - the new persistent sidebar
+  - the branch landing page
+- improve tools such as tracer/clipboard
+- remove unnecessary friction, such as with the default password feature
+
 ## Requirements
 
 - Only 8.8.3 is fully tested
@@ -28,10 +42,6 @@ That's it.
 
 - Uses configuration sets from within App Studio
 - If you use an issue tracker like Agile Studio or Jira, you'll need to configure it first
-
-## Why did you make this component?
-
-a
 
 ## What if something goes wrong?
 
