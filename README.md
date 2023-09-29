@@ -12,6 +12,8 @@ It’s a large (maybe 100+) collection of Developer Experience/Quality of Life m
 
 [Outline of the features/changes](feature-outline.md).
 
+[Screenshot gallery](screenshot-gallery.md).
+
 ## Why did you make this component?
 
 I spend a lot of time in Dev Studio and I like the tools I used a lot to be efficient and be friendly to use. Since we want the output of the applications we build on the platform to be 'user friendly' why not our development tools (typically referred to as DX or Developer QoL)?
