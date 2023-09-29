@@ -28,6 +28,10 @@ It’s a large (maybe 100+) collection of Developer Experience/Quality of Life m
 - Uses configuration sets from within App Studio
 - If you use an issue tracker like Agile Studio or Jira, you'll need to configure it first
 
+## What did you make this component?
+
+a
+
 ## What if something goes wrong?
 
 1. If it's a blocking issue, remove the component from your app
@@ -57,3 +61,15 @@ It’s a large (maybe 100+) collection of Developer Experience/Quality of Life m
   It won't be easy. But I have recorded metadata against every OOTB rule I've overriden in this component to make it easier to
   find out which rules need to be rebuilt or evaluated for support. I will likely need community support to test support for
   Platform versions I don't have easy access to.
+
+- **I don't like X?**
+
+  Some features can be turned off. And some.....
+
+- **Do I need to have Pega Peer Review?**
+
+  Yes. Question is, why *aren't* you using it?
+
+- **Can I get a simplified version for use in Prod?**
+
+  Considering it. If the consensus is that the component definitely is too hot for Prod.
