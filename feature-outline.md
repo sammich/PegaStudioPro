@@ -1,5 +1,7 @@
 # Pega Developer Productivity Booster: Feature outline
 
+[Screenshot gallery](screenshot-gallery.md).
+
 - Top toolbar
     - Icon to open into the application definition
     - Icon to open the search menu
