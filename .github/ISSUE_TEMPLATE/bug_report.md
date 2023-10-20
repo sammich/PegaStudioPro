@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
@@ -24,15 +24,15 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Pega Environment**
- - PDPB version (e.g. 8.8.3-20231031)
- - Pega Platform version (e.g. 8.8.3)
- - Pega Peer Review component version (e.g. 8.6.3)
+ - PDPB version (e.g. 8.8.3-20231031):
+ - Pega Platform version (e.g. 8.8.3):
+ - Pega Peer Review component version (e.g. 8.6.3):
  - Other installed components: (list)
 
 **Environment (optional)**
- - OS: (e.g. Windows 11) (optional)
- - Browser (e.g. Chrome, Safari, Firefox)
- - Version [e.g. 22]
+ - OS (e.g. Windows 11) (optional):
+ - Browser (e.g. Chrome, Safari, Firefox):
+ - Version (e.g. 22):
 
 **Additional context**
 Add any other context about the problem here.
