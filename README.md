@@ -1,4 +1,4 @@
-![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
+<img width="412" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/87878ff9-2e4c-43c3-b58b-dba67b4e37d0">![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
 
 # Pega Developer Productivity Booster
 
@@ -9,6 +9,8 @@ For issues, questions, feedback, feature requests, suggestions, create an issue.
 ## What is it?
 
 It’s a large (maybe 100+) collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
+
+For super-detailed overview of basically every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
 
 [Outline of the features/changes](feature-outline.md).
 
