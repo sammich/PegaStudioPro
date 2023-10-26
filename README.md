@@ -1,4 +1,4 @@
-<img width="412" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/87878ff9-2e4c-43c3-b58b-dba67b4e37d0">![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
+![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
 
 # Pega Developer Productivity Booster
 
