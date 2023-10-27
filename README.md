@@ -28,7 +28,9 @@ Therefore, this component was built to:
 
 ## Requirements
 
-- Only 8.8.3 is fully tested
+
+
+- See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for platform compatability
 - [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component)
 
 ## Installation
