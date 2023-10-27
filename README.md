@@ -33,10 +33,15 @@ Therefore, this component was built to:
 
 ## Installation
 
-- Get a copy of the component (TBA)
-- Install it like any Pega Component
+1. Get a copy of the component (TBA, still in closed testing)
+2. Install it like any Pega component
+3. If you're not on the latest Pega version, open the component and change the ruleset version.
 
-That's it.
+   For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from `SamsMods-ProductivityBooster:08-23-01` to `SamsMods-ProductivityBooster:08-08-03`.
+   
+   <img width="565" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/052fd3d8-7fce-41f7-a43b-08ab13651cdf">
+5. Save
+6. See configuration
 
 ## Configuration
 
