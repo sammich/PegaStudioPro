@@ -33,15 +33,20 @@ Therefore, this component was built to:
 
 ## Installation
 
+The component is currently shipping as a single RAP supporting all Pega platform versions.
+
 2. Get a copy of the component (TBA, still in closed testing)
-3. Install it like any Pega component
-4. If you're not on the latest Pega version, open the component and change the ruleset version.
+3. Install it like any Pega component.
+
+   Ignore the warning about the component being exported from a newer platform version.
+   
+5. If you're not on the latest Pega version, open the component and change the ruleset version.
 
    For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from `SamsMods-ProductivityBooster:08-23-01` to `SamsMods-ProductivityBooster:08-08-03`.
    
    <img width="565" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/052fd3d8-7fce-41f7-a43b-08ab13651cdf">
-5. Save
-6. In your application definition, add this component and save
+6. Save
+7. In your application definition, add this component and save.
 
    There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
    
