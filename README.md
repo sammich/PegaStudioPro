@@ -28,32 +28,36 @@ Therefore, this component was built to:
 
 ## Requirements
 
-
-
 - See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for platform compatability
-- [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component)
+- [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed
 
 ## Installation
 
-1. Get a copy of the component (TBA, still in closed testing)
-2. Install it like any Pega component
-3. If you're not on the latest Pega version, open the component and change the ruleset version.
+2. Get a copy of the component (TBA, still in closed testing)
+3. Install it like any Pega component
+4. If you're not on the latest Pega version, open the component and change the ruleset version.
 
    For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from `SamsMods-ProductivityBooster:08-23-01` to `SamsMods-ProductivityBooster:08-08-03`.
    
    <img width="565" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/052fd3d8-7fce-41f7-a43b-08ab13651cdf">
 5. Save
-6. See configuration
+6. In your application definition, add this component and save
+
+   There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
+   
+8. See configuration
 
 ## Configuration
 
 - Uses configuration sets from within App Studio
 - If you use an issue tracker like Agile Studio or Jira, you'll need to configure it first
 
-## What if something goes wrong?
+## What if something goes wrong? (a.k.a. warranty & support)
+
+No warranty is provided for this component. Support is provided via the GitHub issues on this repo. This is subject to change, as the component is still in closed testing.
 
 1. If it's a blocking issue, remove the component from your app
-2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and tell me as much as you can.
+2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can
 
 ## Potential FAQs
 
