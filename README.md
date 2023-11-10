@@ -1,4 +1,4 @@
-![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
+![rocket-launch-line-icon](https://github.com/sammich/PegaStudioPro/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
 
 # Pega Studio Pro
 
