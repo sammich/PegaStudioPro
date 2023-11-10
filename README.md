@@ -1,8 +1,8 @@
 ![rocket-launch-line-icon](https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/39f93eb8-25c1-4f2e-a525-d7b090dfb198)
 
-# Pega Developer Productivity Booster
+# Pega Studio Pro
 
-This is the current home of the PDPB component.
+This is the current home of the *Studio Pro* component.
 
 For issues, questions, feedback, feature requests, suggestions, create an issue. Vote on whatever you think should be added.
 
@@ -14,7 +14,7 @@ For super-detailed overview of basically every change, see [this Miro board](htt
 
 ## Why did you make this component?
 
-I spend a lot of time in Dev Studio and I like the tools I used a lot to be efficient and be friendly to use. Since we want the output of the applications we build on the platform to be 'user friendly' why not our development tools (typically referred to as DX or Developer QoL)?
+I spend a lot of time in Dev Studio and I like the tools I use a lot to be efficient and be friendly to use. Since we want the output of the applications we build on the platform to be 'user friendly' why not our development tools (typically referred to as DX or Developer QoL)?
 
 Therefore, this component was built to:
 
@@ -28,19 +28,20 @@ Therefore, this component was built to:
 
 ## Requirements
 
-- See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for platform compatability
+- Pega 8.6 or later
+  - See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for full platform compatability notes
 - [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed
 
 ## Installation
 
-The component is currently shipping as a single RAP supporting all Pega platform versions.
+The component is currently shipping as a single RAP supporting Pega Inifnity 8.6 to '23.
 
 2. Get a copy of the component (TBA, still in closed testing)
 3. Install it like any Pega component.
 
    Ignore the warning about the component being exported from a newer platform version.
    
-5. If you're not on the latest Pega version, open the component and change the ruleset version.
+5. (Optional) If you're not on the latest Pega version ('23), open the component and change the ruleset version.
 
    For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from `SamsMods-ProductivityBooster:08-23-01` to `SamsMods-ProductivityBooster:08-08-03`.
    
@@ -54,8 +55,14 @@ The component is currently shipping as a single RAP supporting all Pega platform
 
 ## Configuration
 
-- Uses configuration sets from within App Studio
-- If you use an issue tracker like Agile Studio or Jira, you'll need to configure it first
+The main component configuration uses the platform's [configuration sets in App Studio](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764568004912838&cot=14). Each configuration is described there.
+
+There are also configurations available on the [Operator-level](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764568005141127&cot=14).
+
+Please note:
+
+- Configuration sets have a per-application scope. If you don't use the defaults, you will need to set them up for each app you have.
+- Defaults *may* change in a componnent release. Check the release notes
 
 ## What if something goes wrong? (a.k.a. warranty & support)
 
@@ -70,24 +77,18 @@ No warranty is provided for this component. Support is provided via the GitHub i
 
   Technically, there's no reason you can't use this in environments other than dev, but due to the nature of this component
   and that higher environments more production-like (not less), you probably shouldn't. Then again, there's nothing stoppping
-  you.
+  you (except the client).
 
-- **Can I install this on Platform verisons earlier than 8.8.3?**
+- **How will other platform versions be supported?**
 
-  I haven't tested it on lower (or higher) platform versions.
+  When this component adds support for the new platform version (as I did when I validated it for Infinity '23), the following steps are taken:
 
-  I have plans and metadata in place to support lower and higher versions but as I don't have access to every platform version
-  it will take time to get support in.
+  - Each overriden rule is checked to see if it has a new version in that release. For example the rule `Rule-Obj-Class pzDataTypeActions` this component copied from is from 8.5. When validating Infinity '23 support, that rule was updated
+  - If a rule is updated, a copy is made from the OOTB version and the modifications applied manually
 
-- **How did you modify Dev Studio? Aren't all the rules Final/Internal/pz?**
+  Every overriden rule has notes on what was changed from the OOTB rule. These notes are visisble for the modified rules.
 
-  Yes.
-
-- **Won't supporting versions other than 8.8.3 be really difficult?**
-
-  It won't be easy. But I have recorded metadata against every OOTB rule I've overriden in this component to make it easier to
-  find out which rules need to be rebuilt or evaluated for support. I will likely need community support to test support for
-  Platform versions I don't have easy access to.
+  New features will follow the same cycle. A feature will be developed on 8.6 (the lowest version supported), and verified/rebuilt for higher versions. I have VMs for every major version, and some minor versions, too.
 
 - **I don't like change X**
 
@@ -99,4 +100,8 @@ No warranty is provided for this component. Support is provided via the GitHub i
 
 - **Can I get a simplified version for use in Prod?**
 
-  Considering it. If the consensus is that the component is definitely is too hot for Prod.
+  If there is enough community support for such a release, with a good reason for which changes make it unsuitable for Pre-Prod/Prod, then it can be considered.
+
+- **How did you modify Dev Studio? Aren't all the rules Final/Internal/pz?**
+
+  Yes.
