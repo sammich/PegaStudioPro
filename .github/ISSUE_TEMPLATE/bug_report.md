@@ -24,7 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Pega Environment**
- - PDPB version (e.g. 8.8.3-20231031):
+ - Studio Pro version (e.g. 8.8.3-20231031):
  - Pega Platform version (e.g. 8.8.3):
  - Pega Peer Review component version (e.g. 8.6.3):
  - Other installed components: (list)
