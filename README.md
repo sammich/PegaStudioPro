@@ -30,7 +30,8 @@ Therefore, this component was built to:
 
 - Pega 8.6 or later
   - See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for full platform compatability notes
-- [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed
+- [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed.
+  - Do not add a newer version of this component to your application (as of writing, 8.6.8 is the latest, however)
 
 ## Installation
 
@@ -63,6 +64,14 @@ Please note:
 
 - Configuration sets have a per-application scope. If you don't use the defaults, you will need to set them up for each app you have.
 - Defaults *may* change in a componnent release. Check the release notes
+
+## Updates and releases
+
+The component, depending on feedback and enhancement requests, may get fairly regular updates as they are added.
+
+When the Pega Peer Review component is updated, this component will get updated in due course. Do not manually update to the new component version.
+
+Check the release notes for details of all changes in each release here (TBA).
 
 ## What if something goes wrong? (a.k.a. warranty & support)
 
