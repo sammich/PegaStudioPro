@@ -2,15 +2,15 @@
 
 # Pega Studio Pro
 
-This is the current home of the *Studio Pro* component.
+This is the home of the *Pega Studio Pro* component.
 
 For issues, questions, feedback, feature requests, suggestions, create an issue. Vote on whatever you think should be added.
 
 ## What is it?
 
-It’s a large (maybe 100+) collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
+It’s a large collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
 
-For super-detailed overview of basically every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
+For super-detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
 
 ## Why did you make this component?
 
@@ -37,23 +37,25 @@ Therefore, this component was built to:
 
 The component is currently shipping as a single RAP supporting Pega Inifnity 8.6 to '23.
 
-2. Get a copy of the component (TBA, still in closed testing)
-3. Install it like any Pega component.
+1. Get a copy of the component (TBA, still in closed testing)
+2. Install it like any Pega component.
 
    Ignore the warning about the component being exported from a newer platform version.
    
-5. (Optional) If you're not on the latest Pega version ('23), open the component and change the ruleset version.
+3. (Optional) If you're not on the latest Pega version ('23), open the component and change the ruleset version.
 
-   For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from `SamsMods-ProductivityBooster:08-23-01` to `SamsMods-ProductivityBooster:08-08-03`.
-   
-   <img width="565" alt="image" src="https://github.com/sammich/PegaDeveloperProductivityBooster/assets/1682127/052fd3d8-7fce-41f7-a43b-08ab13651cdf">
-6. Save
-7. In your application definition, add this component and save.
+   For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from
+   `PegaStudioPro_20230928T111727128:08-23-01` to `PegaStudioPro_20230928T111727128:08-08-03`.
+
+   <img width="575" alt="image" src="https://github.com/sammich/PegaStudioPro/assets/1682127/93821b9e-4f84-4c0c-93f9-fc27a7e680fe">
+
+5. Save
+6. In your application definition, add this component and save.
 
    There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
    
-8. See configuration
-
+7. See configuration.
+   
 ## Configuration
 
 The main component configuration uses the platform's [configuration sets in App Studio](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764568004912838&cot=14). Each configuration is described there.
@@ -63,7 +65,7 @@ There are also configurations available on the [Operator-level](https://miro.com
 Please note:
 
 - Configuration sets have a per-application scope. If you don't use the defaults, you will need to set them up for each app you have.
-- Defaults *may* change in a componnent release. Check the release notes
+- Defaults *may* change in a componnent release. Check the release notes.
 
 ## Updates and releases
 
@@ -71,11 +73,11 @@ The component, depending on feedback and enhancement requests, may get fairly re
 
 When the Pega Peer Review component is updated, this component will get updated in due course. Do not manually update to the new component version.
 
-Check the release notes for details of all changes in each release here (TBA).
+Check the release notes for details of all changes in each release.
 
 ## What if something goes wrong? (a.k.a. warranty & support)
 
-No warranty is provided for this component. Support is provided via the GitHub issues on this repo. This is subject to change, as the component is still in closed testing.
+No warranty is provided for this component. Support is provided via the GitHub issues on this repo.
 
 1. If it's a blocking issue, remove the component from your app
 2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can
