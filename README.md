@@ -8,9 +8,9 @@ For issues, questions, feedback, feature requests, suggestions, create an issue.
 
 ## What is it?
 
-It’s a large collection of Developer Experience/Quality of Life modifications to Dev Studio. It was built and used on a real client project.
+*Pega Studio Pro* is collection of over 100 developer experience/Quality of Life modifications to Dev Studio. It was built and used on a client project, and has continued development beyond it.
 
-For super-detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
+For detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
 
 ## Why did you make this component?
 
