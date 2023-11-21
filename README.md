@@ -12,6 +12,8 @@ For issues, questions, feedback, feature requests, suggestions, create an issue.
 
 For detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=474308154811).
 
+This component only enhances the *authoring* experience. There are no runtime changes or side effects as a result of this component being used.
+
 ## Why did you make this component?
 
 I spend a lot of time in Dev Studio and I like the tools I use a lot to be efficient and be friendly to use. Since we want the output of the applications we build on the platform to be 'user friendly' why not our development tools (typically referred to as DX or Developer QoL)?
