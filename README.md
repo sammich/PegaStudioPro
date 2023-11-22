@@ -31,7 +31,6 @@ Therefore, this component was built to:
 ## Requirements
 
 - Pega 8.6 or later
-  - See [the Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764567999200990&cot=14) for full platform compatability notes
 - [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed.
   - Do not add a newer version of this component to your application (as of writing, 8.6.8 is the latest, however)
 
