@@ -8,7 +8,7 @@ For issues, questions, feedback, feature requests, suggestions, create an issue.
 
 ## What is it?
 
-*Pega Studio Pro* is an ever-growing collection of over 100 developer experience/Quality of Life enhancements to Dev Studio. It was built and used on a client project, and has development has continued beyond it.
+*Pega Studio Pro* is an ever-growing collection of over 100 developer experience/Quality of Life enhancements to Dev Studio. It was built and used on a client project, and development has continued beyond it.
 
 For detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=476120716316).
 
