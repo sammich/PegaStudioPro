@@ -80,8 +80,10 @@ Check the release notes for details of all changes in each release.
 
 No warranty is provided for this component. Support is provided via the GitHub issues on this repo.
 
-1. If it's a blocking issue, remove the component from your app
-2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can
+1. If it's a blocking issue, remove the component from your app. The component is designed to be only additive, and can be removed at any time without consequence.
+2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can.
+
+However, I will be notified of all activity on this repo, so if you report it, it will be noticed. Depending on the severity, might even be addressed fairly quickly.
 
 ## Potential FAQs
 
