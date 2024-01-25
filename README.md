@@ -31,42 +31,51 @@ Therefore, this component was built to:
 ## Requirements
 
 - Pega 8.6 or later
-- [Pega Peer Review v8.6.8](https://community.pega.com/marketplace/components/peer-review-component) installed.
-  - Do not add a newer version of this component to your application (as of writing, 8.6.8 is the latest, however)
+- Latest [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) for your platform installed
+    - v8.6.8 for platform versions up to 8.8.x
+    - v8.83.09 for platform '23 or later
+
+## Available versions
+
+The component is available in two streams based on your platform version:
+
+- Infinity 8.8 or earlier (pre-Infinity '23)
+- Infinity '23 and later
+
+Grab the file indicated by the version here (`08` = 8.8 and earlier, `23` = '23 and later)
+
+```
+PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
+                 ^^
+```
 
 ## Installation
 
 The component is currently shipping as a single RAP supporting Pega Inifnity 8.6 to '23.
 
-1. Get a copy of the component (TBA, still in closed testing)
-2. Install it like any Pega component.
+1. Download a copy of the component for your platform
+2. Install it like any Pega component. There is a schema installation step.
 
    Ignore the warning about the component being exported from a newer platform version.
    
-3. (Optional) If you're not on the latest Pega version ('23), open the component and change the ruleset version.
-
-   For example, if you're on 8.8.3, change the ruleset version (component is unlocked) from
-   `PegaStudioPro_20230928T111727128:08-23-01` to `PegaStudioPro_20230928T111727128:08-08-03`.
-
-   <img width="575" alt="image" src="https://github.com/sammich/PegaStudioPro/assets/1682127/93821b9e-4f84-4c0c-93f9-fc27a7e680fe">
-
-5. Save
-6. In your application definition, add this component and save.
+3. In your application definition, add this component and save.
 
    There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
    
-7. See configuration.
+4. See configuration for additional options
    
 ## Configuration
 
-The main component configuration uses the platform's [configuration sets in App Studio](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764568004912838&cot=14). Each configuration is described there.
+Pega Studio Pro has a settings page you can access from the PSP widget on the 'Home' tab in Dev Studio. You may want to take some time to understand the options available, and configure it before you use it for the first time.
 
 There are also configurations available on the [Operator-level](https://miro.com/app/board/uXjVNWQE6xU=/?moveToWidget=3458764568005141127&cot=14).
 
 Please note:
 
-- Configuration sets have a per-application scope. If you don't use the defaults, you will need to set them up for each app you have.
-- Defaults *may* change in a componnent release. Check the release notes.
+- Configuration have a per-application scope
+   - On the setting landing page, each configuration has a 'Use as default' action to override the default on the system-level, so you don't need to set it for every application you use PSP on
+   - Each time you install the component, the component defaults will be defaulted to the packaged values. You'll need to click on 'Use as default' for each value again
+   - For any reason, if you want to restore the component defaults as-shipped, there's a button on the landing page ("Restore PSP config")
 
 ## Updates and releases
 
