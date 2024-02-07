@@ -94,13 +94,13 @@ No warranty is provided for this component. Support is provided via the GitHub i
 
 However, I will be notified of all activity on this repo, so if you report it, it will be noticed. Depending on the severity, might even be addressed fairly quickly.
 
-## Potential FAQs
+## FAQs
 
 - **What environments can I use this in?**
 
-  Technically, there's no reason you can't use this in environments other than dev, but due to the nature of this component
-  and that higher environments more production-like (not less), you probably shouldn't. Then again, there's nothing stoppping
-  you (except the client).
+  This is primarily a development tool, and shouldn't need to be used in non-dev environments.
+
+  There is technically no reason why this can't be used in higher environments, as we strictly avoid creating end-user (UI) or runtime changes (process engine, etc.). I.e. most changes are to improve the authoring experience.
 
 - **How will other platform versions be supported?**
 
