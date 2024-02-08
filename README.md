@@ -8,11 +8,11 @@ For issues, questions, feedback, feature requests, suggestions, create an issue.
 
 ## What is it?
 
-*Pega Studio Pro* is an ever-growing collection of over 100 developer experience/Quality of Life enhancements to Dev Studio. It was built and used on a client project, and development has continued beyond it.
+*Pega Studio Pro* is an growing collection of over 120 developer experience/Quality of Life enhancements to Dev Studio. It was built and used on a client project, and development has continued beyond it.
 
 For detailed overview of (almost) every change, see [this Miro board](https://miro.com/app/board/uXjVNWQE6xU=/?share_link_id=476120716316).
 
-This component only enhances the *authoring* experience. There are no runtime changes or side effects as a result of this component being used.
+This component only enhances the *authoring* experience. There are no runtime changes or side effects as a result of this component being used. We recommend use on Development systems only.
 
 ## Why did you make this component?
 
@@ -23,8 +23,8 @@ Therefore, this component was built to:
 - reduce the number of clicks to achieve common actions, such as lifting actions out of menus
 - surface data that is otherwise hidden, such as the 'pass parameter page'
 - increase the density or make better use of the UI
-  - the new persistent sidebar
-  - the branch landing page
+    - the new persistent sidebar
+    - the branch landing page
 - improve tools such as tracer/clipboard
 - remove unnecessary friction, such as with the default password feature
 
@@ -42,7 +42,7 @@ The component is available in two streams based on your platform version:
 - Infinity 8.8 or earlier (pre-Infinity '23)
 - Infinity '23 and later
 
-Grab the file indicated by the version here (`08` = 8.8 and earlier, `23` = '23 and later)
+Download the file indicated by the version here (`08` = 8.8 and earlier, `23` = '23 and later)
 
 ```
 PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
@@ -51,19 +51,22 @@ PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
 
 ## Installation
 
-The component is currently shipping as a single RAP supporting Pega Inifnity 8.6 to '23.
-
-1. Download a copy of the component for your platform
-2. Install it like any Pega component. There is a schema installation step.
-
+1. Download a copy of the component for your platform (see above)
+2. Ensure you have the correct [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) version installed **before** you install *Pega Studio Pro*
+3. Install it like any Pega component. There is a schema installation step.
    Ignore the warning about the component being exported from a newer platform version.
-   
-3. In your application definition, add this component and save.
-
+4. In your application definition, add this component and save.
    There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
-   
-4. See configuration for additional options
-   
+5. See configuration for additional options
+
+### Upgrading from 8.8 to 8.23
+
+If you are using *Pega Studio Pro* and upgraded your platform to Inifinty '23:
+
+1. Install the supported *Pega Peer Review* version (see Requirements above)
+2. Import the Infinity '23 version of *Pega Studio Pro*
+3. Update each application using the previous version of *Pega Studio Pro* to use `8.23.0` of the component
+
 ## Configuration
 
 Pega Studio Pro has a settings page you can access from the PSP widget on the 'Home' tab in Dev Studio. You may want to take some time to understand the options available, and configure it before you use it for the first time.
@@ -73,9 +76,9 @@ There are also configurations available on the [Operator-level](https://miro.com
 Please note:
 
 - Configuration have a per-application scope
-   - On the setting landing page, each configuration has a 'Use as default' action to override the default on the system-level, so you don't need to set it for every application you use PSP on
-   - Each time you install the component, the component defaults will be defaulted to the packaged values. You'll need to click on 'Use as default' for each value again
-   - For any reason, if you want to restore the component defaults as-shipped, there's a button on the landing page ("Restore PSP config")
+    - On the setting landing page, each configuration has a 'Use as default' action to override the default on the system-level, so you don't need to set it for every application you use PSP on
+    - Each time you install the component, the component defaults will be defaulted to the packaged values. You'll need to click on 'Use as default' for each value again
+    - For any reason, if you want to restore the component defaults as-shipped, there's a button on the landing page ("Restore PSP config")
 
 ## Updates and releases
 
@@ -106,8 +109,8 @@ However, I will be notified of all activity on this repo, so if you report it, i
 
   When this component adds support for the new platform version (as I did when I validated it for Infinity '23), the following steps are taken:
 
-  - Each overriden rule is checked to see if it has a new version in that release. For example the rule `Rule-Obj-Class pzDataTypeActions` this component copied from is from 8.5. When validating Infinity '23 support, that rule was updated
-  - If a rule is updated, a copy is made from the OOTB version and the modifications applied manually
+    - Each overriden rule is checked to see if it has a new version in that release. For example the rule `Rule-Obj-Class pzDataTypeActions` this component copied from is from 8.5. When validating Infinity '23 support, that rule was updated
+    - If a rule is updated, a copy is made from the OOTB version and the modifications applied manually
 
   Every overriden rule has notes on what was changed from the OOTB rule. These notes are visisble for the modified rules.
 
