@@ -92,6 +92,8 @@ Check the release notes for details of all changes in each release.
 
 No warranty is provided for this component. Support is provided via the GitHub issues on this repo.
 
+If you suspect any issues with your application, please retest with the component removed, before raising a support ticket with Pega.
+
 1. If it's a blocking issue, remove the component from your app. The component is designed to be only additive, and can be removed at any time without consequence.
 2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can.
 
