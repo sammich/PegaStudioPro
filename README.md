@@ -52,12 +52,13 @@ PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
 ## Installation
 
 1. Download a copy of the component for your platform (see above)
-2. Ensure you have the correct [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) version installed **before** you install *Pega Studio Pro*
+2. Ensure you have the correct version of [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) installed
 3. Install it like any Pega component. There is a schema installation step.
    Ignore the warning about the component being exported from a newer platform version.
 4. In your application definition, add this component and save.
-   There's no need to also have Pega Peer Review component on your component as it's included as a dependency in the component.
-5. See configuration for additional options
+   There's no need to also have Pega Peer Review component on your application as it's included as a dependency in the Pega Studio Pro component.
+
+See 'Configuration' section below for additional options after installation.
 
 ### Upgrading from 8.8 to 8.23
 
