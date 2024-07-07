@@ -27,7 +27,7 @@ Feature requests are welcome! While we will consider all requests, we cannot gua
 
 - Be precise about the proposed outcome of the feature and how it relates to existing features. If you are able, include implementation potential implementation details, such as which rules and classes will be overridden or impacted.
 
-## Code contributions
+## 'Code' contributions
 
 Since this is a Pega component, this repo is just for distribution of the component and issue management.
 
