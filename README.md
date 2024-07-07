@@ -95,7 +95,7 @@ No warranty is provided for this component. Support is provided via the GitHub i
 
 If you suspect any issues with your application, please retest with the component removed, before raising a support ticket with Pega.
 
-1. If it's a blocking issue, remove the component from your app. The component is designed to be only additive, and can be removed at any time without consequence.
+1. If it's a blocking issue, remove the component from your app. The component is designed to only be assistive, and can be removed at any time without consequence.
 2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can.
 
 However, I will be notified of all activity on this repo, so if you report it, it will be noticed. Depending on the severity, might even be addressed fairly quickly.
@@ -106,18 +106,21 @@ However, I will be notified of all activity on this repo, so if you report it, i
 
   This is primarily a development tool, and shouldn't need to be used in non-dev environments.
 
-  There is technically no reason why this can't be used in higher environments, as we strictly avoid creating end-user (UI) or runtime changes (process engine, etc.). I.e. most changes are to improve the authoring experience.
+  There is no reason why this can't be used in higher environments, as we strictly avoid creating end-user (UI) or runtime changes (process engine, etc.). In other words, all changes are to improve the authoring experience.
 
-- **How will other platform versions be supported?**
+  However, while great care has been taken in building this component, please be mindful that support is only available via this repo.
 
-  When this component adds support for the new platform version (as I did when I validated it for Infinity '23), the following steps are taken:
+- **How will newer platform versions be supported? How long will it take to support a new version?**
 
-    - Each overriden rule is checked to see if it has a new version in that release. For example the rule `Rule-Obj-Class pzDataTypeActions` this component copied from is from 8.5. When validating Infinity '23 support, that rule was updated
-    - If a rule is updated, a copy is made from the OOTB version and the modifications applied manually
+  When a minor (8.x) or patch (8.x.y) Pega Platform is released, we:
 
-  Every overriden rule has notes on what was changed from the OOTB rule. These notes are visisble for the modified rules.
+  1. Identify all the overriden rules in the component which have been updated in the Platform
+  2. Manually identify the changes, and merge or rebuild the override as necessary
+  3. Perform a regression test over all the features
+ 
+  As Dev Studio undergoes very little change between releases, verifying support on a new version is a relatively quick process. It may even be released day and date of GA.
 
-  New features will follow the same cycle. A feature will be developed on 8.6 (the lowest version supported), and verified/rebuilt for higher versions. I have VMs for every major version, and some minor versions, too.
+  A number of major (8.8, 23, 24) and their minor releases have had supported added during the life of this component.
 
 - **I don't like change X**
 
