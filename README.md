@@ -93,7 +93,8 @@ Check the release notes for details of all changes in each release.
 
 No warranty is provided for this component. Support is provided via the GitHub issues on this repo.
 
-If you suspect any issues with your application, please retest with the component removed, before raising a support ticket with Pega.
+> [!CAUTION]
+> If you suspect any issues with your application, please retest with the component removed, *before* raising a support ticket with Pega.
 
 1. If it's a blocking issue, remove the component from your app. The component is designed to only be assistive, and can be removed at any time without consequence.
 2. Check the issues page if it's an existing issue, and vote for it, or create a new issue and share as much as you can.
@@ -112,15 +113,15 @@ However, I will be notified of all activity on this repo, so if you report it, i
 
 - **How will newer platform versions be supported? How long will it take to support a new version?**
 
+  Officially, the component may support the latest release as soon as GA day, as the validation process is fairly quick. However, based on past releases, you should not experience any issues running an older version for a newer platform.
+  
   When a minor (8.x) or patch (8.x.y) Pega Platform is released, we:
 
-  1. Identify all the overriden rules in the component which have been updated in the Platform
-  2. Manually identify the changes, and merge or rebuild the override as necessary
-  3. Perform a regression test over all the features
+  1. Identify all the overriden rules in the component which have been updated in the latest release (via a report)
+  2. Manually examine each updated rule, merging changes or rebuilding as necessary
+  3. Perform a regression test
  
-  As Dev Studio undergoes very little change between releases, verifying support on a new version is a relatively quick process. It may even be released day and date of GA.
-
-  A number of major (8.8, 23, 24) and their minor releases have had supported added during the life of this component.
+  For more details, head over to the [wiki](https://github.com/sammich/PegaStudioPro/wiki/Development-guidelines).
 
 - **I don't like change X**
 
