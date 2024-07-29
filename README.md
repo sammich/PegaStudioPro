@@ -109,7 +109,7 @@ However, I will be notified of all activity on this repo, so if you report it, i
 
   Pega Marketplace has been tightening up on what is allowed on it (for good reason), and it means this compoennt won't be approved to be on it.
 
-  Nevertheless, you may see some enhancments in this component in a future Platform update, but...until then, you can use this component right now!
+  Nevertheless, you may see some enhancments from this component make it into a future Platform update, but...until then, you can use all those features right now by installing this component!
   
 - **What environments can I use this in?**
 
