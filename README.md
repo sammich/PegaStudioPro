@@ -37,10 +37,11 @@ Therefore, this component was built to:
 
 ## Available versions
 
-The component is available in two streams based on your platform version:
+The component is available in downloads based on your platform version:
 
-- Infinity 8.8 or earlier (pre-Infinity '23)
-- Infinity '23 and later
+- Infinity 8.6
+- Infinity 8.8 and earlier (pre-Infinity '23)
+- Infinity 23 and later
 
 Download the file indicated by the version here (`08` = 8.8 and earlier, `23` = '23 and later)
 
@@ -57,6 +58,8 @@ PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
    Ignore the warning about the component being exported from a newer platform version.
 4. In your application definition, add this component and save.
    There's no need to also have Pega Peer Review component on your application as it's included as a dependency in the Pega Studio Pro component.
+
+If some features aren't showing, generally CSS-based ones, logging out and back in will resolve it.
 
 See 'Configuration' section below for additional options after installation.
 
