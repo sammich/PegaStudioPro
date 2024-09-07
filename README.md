@@ -124,8 +124,10 @@ However, I will be notified of all activity on this repo, so if you report it, i
 
 - **How will newer platform versions be supported? How long will it take to support a new version?**
 
-  Officially, the component may support the latest release as soon as GA day, as the validation process is fairly quick. However, based on past releases, you should not experience any issues running an older version for a newer platform.
-  
+  The component will get validated on the latest Pega release shortly after general availability.
+
+  However, based on past Platform releases, you will not see any issues using this component on a slightly newer version of the platform it was validated for.
+
   When a minor (8.x) or patch (8.x.y) Pega Platform is released, we:
 
   1. Identify all the overriden rules in the component which have been updated in the latest release (via a report)
