@@ -56,8 +56,11 @@ PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
 2. Ensure you have the correct version of [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) installed
 3. Install it like any Pega component. There is a schema installation step.
    Ignore the warning about the component being exported from a newer platform version.
-4. In your application definition, add this component and save.
+4. In your application definition, add this component - **without saving**
    There's no need to also have Pega Peer Review component on your application as it's included as a dependency in the Pega Studio Pro component.
+5. Open the Pega Studio Pro component definition, and review/update the version of the ruleset that is being used.
+   See [this wiki](https://github.com/sammich/PegaStudioPro/wiki/Installation) page for more details about updating the component ruleset.
+6. Save your application definition.
 
 If some features aren't showing, generally CSS-based ones, logging out and back in will resolve it.
 
