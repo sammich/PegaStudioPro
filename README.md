@@ -28,12 +28,15 @@ Therefore, this component was built to:
 - improve tools such as tracer/clipboard
 - remove unnecessary friction, such as with the default password feature
 
+## Read before you install
+
+> [!CAUTION]
+> This component is not supported by Pega. Read this page carefully before you install.
+
 ## Requirements
 
 - Pega 8.6 or later
-- Latest [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) for your platform installed
-    - v8.6.8 for platform versions up to 8.8.x
-    - v8.83.09 for platform '23 or later
+- [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) - see the table below for supported versions.
 
 ## Available versions
 
