@@ -39,18 +39,18 @@ Therefore, this component was built to:
 
 The component is available in downloads based on your platform version:
 
-| **Platform version** | **Ruleset** | **Product**                            |
-|----------------------|-------------|----------------------------------------|
-| 8.6.0                | 08-06-01    | PegaStudioPro-08.06.01-yyyy-MM-dd-hhmm |
-| 8.6.6                | 08-06-07    |                                        |
-| 8.7.0                | 08-07-01    | PegaStudioPro-08.07.01-yyyy-MM-dd-hhmm |
-| 8.8.0                | 08-08-01    | PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm |
-| 8.8.1                | 08-08-02    |                                        |
-| 23.1.0               | 08-23-01    | PegaStudioPro-08.23.01-yyyy-MM-dd-hhmm |
-| 24.1.0               | 08-24-01    | PegaStudioPro-08.24.01-yyyy-MM-dd-hhmm |
-| 24.1.3               | 08-24-03    |                                        |
-| 24.2.0               | 08-24-51    | PegaStudioPro-08.24.02-yyyy-MM-dd-hhmm |
-| 24.2.1               | 08-24-52    |                                        |
+| **Platform version** | **Product**                            |
+|----------------------|----------------------------------------|
+| 8.6.0                | PegaStudioPro-08.06.01-yyyy-MM-dd-hhmm |
+| 8.6.6                |                                        |
+| 8.7.0                | PegaStudioPro-08.07.01-yyyy-MM-dd-hhmm |
+| 8.8.0                | PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm |
+| 8.8.1                |                                        |
+| 23.1.0               | PegaStudioPro-08.23.01-yyyy-MM-dd-hhmm |
+| 24.1.0               | PegaStudioPro-08.24.01-yyyy-MM-dd-hhmm |
+| 24.1.3               |                                        |
+| 24.2.0               | PegaStudioPro-08.24.02-yyyy-MM-dd-hhmm |
+| 24.2.1               |                                        |
 
 For a platform version that isn't explicitly listed, get the next **lowest** version (e.g. if you're on `24.1.3`, get the version for `23.1.0`).
 
