@@ -39,28 +39,33 @@ Therefore, this component was built to:
 
 The component is available in downloads based on your platform version:
 
-- Infinity 8.6
-- Infinity 8.8 and earlier (pre-Infinity '23)
-- Infinity 23 and later
+| **Platform version** | **Ruleset** | **Product**                            |
+|----------------------|-------------|----------------------------------------|
+| 8.6.0                | 08-06-01    | PegaStudioPro-08.06.01-yyyy-MM-dd-hhmm |
+| 8.6.6                | 08-06-07    |                                        |
+| 8.7.0                | 08-07-01    | PegaStudioPro-08.07.01-yyyy-MM-dd-hhmm |
+| 8.8.0                | 08-08-01    | PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm |
+| 8.8.1                | 08-08-02    |                                        |
+| 23.1.0               | 08-23-01    | PegaStudioPro-08.23.01-yyyy-MM-dd-hhmm |
+| 24.1.0               | 08-24-01    | PegaStudioPro-08.24.01-yyyy-MM-dd-hhmm |
+| 24.1.3               | 08-24-03    |                                        |
+| 24.2.0               | 08-24-51    | PegaStudioPro-08.24.02-yyyy-MM-dd-hhmm |
+| 24.2.1               | 08-24-52    |                                        |
 
-Download the file indicated by the version here (`08` = 8.8 and earlier, `23` = '23 and later)
-
-```
-PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm.zip
-                 ^^
-```
+For a platform version that isn't explicitly listed, get the next **lowest** version (e.g. if you're on `24.1.3`, get the version for `23.1.0`).
 
 ## Installation
 
 1. Download a copy of the component for your platform (see above)
-2. Ensure you have the correct version of [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) installed
-3. Install it like any Pega component. There is a schema installation step.
+2. Ensure you have the correct version of [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) installed for your platform version
+   If you do not, you may not be able to save, or worse, login.
+4. Install it as any Pega component. There is a schema installation step.
    Ignore the warning about the component being exported from a newer platform version.
-4. In your application definition, add this component - **without saving**
+5. In your application definition, add this component - **without saving**
    There's no need to also have Pega Peer Review component on your application as it's included as a dependency in the Pega Studio Pro component.
-5. Open the Pega Studio Pro component definition, and review/update the version of the ruleset that is being used.
+6. Open the Pega Studio Pro component definition, and review/update the version of the ruleset that is being used.
    See [this wiki](https://github.com/sammich/PegaStudioPro/wiki/Installation) page for more details about updating the component ruleset.
-6. Save your application definition.
+7. Save your application definition.
 
 If some features aren't showing, generally CSS-based ones, logging out and back in will resolve it.
 
