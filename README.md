@@ -39,22 +39,25 @@ Therefore, this component was built to:
 
 The component is available in downloads based on your platform version:
 
-| **Platform version** | **Product**                            |
-|----------------------|----------------------------------------|
-| 8.6.0                | PegaStudioPro-08.06.01-yyyy-MM-dd-hhmm |
-| 8.6.6                |                                        |
-| 8.7.0                | PegaStudioPro-08.07.01-yyyy-MM-dd-hhmm |
-| 8.8.0                | PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm |
-| 8.8.1                |                                        |
-| 23.1.0               | PegaStudioPro-08.23.01-yyyy-MM-dd-hhmm |
-| 24.1.0               | PegaStudioPro-08.24.01-yyyy-MM-dd-hhmm |
-| 24.1.3               |                                        |
-| 24.2.0               | PegaStudioPro-08.24.02-yyyy-MM-dd-hhmm |
-| 24.2.1               |                                        |
+| **Platform version** | **Package**                            | **Pega Peer Review** |
+|----------------------|----------------------------------------|---------|
+| 8.6.0                | PegaStudioPro-08.06.01-yyyy-MM-dd-hhmm | 8.6.8   |
+| 8.6.6                |                                        |         |
+| 8.7.0                | PegaStudioPro-08.07.01-yyyy-MM-dd-hhmm |         |
+| 8.8.0                | PegaStudioPro-08.08.01-yyyy-MM-dd-hhmm |         |
+| 8.8.1                |                                        |         |
+| 23.1.0               | PegaStudioPro-08.23.01-yyyy-MM-dd-hhmm | 8.84.10 |
+| 24.1.0               | PegaStudioPro-08.24.01-yyyy-MM-dd-hhmm |         |
+| 24.1.3               |                                        |         |
+| 24.2.0               | PegaStudioPro-08.24.02-yyyy-MM-dd-hhmm |         |
+| 24.2.1               |                                        |         |
 
 For a platform version that isn't explicitly listed, get the next **lowest** version (e.g. if you're on `24.1.3`, get the version for `23.1.0`).
 
 ## Installation
+
+> [!CAUTION]
+> It is highly recommended you have a backup operator that has a default application that isn't using Pega Studio Pro, in case something goes wrong.
 
 1. Download a copy of the component for your platform (see above)
 2. Ensure you have the correct version of [Pega Peer Review](https://community.pega.com/marketplace/components/peer-review-component) installed for your platform version
